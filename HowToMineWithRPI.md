@@ -10,6 +10,8 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 
 `sudo apt update`
 
+`sudo apt full-upgrade`
+
 
 2. Reboot if necessary.
 
