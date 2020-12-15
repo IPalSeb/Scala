@@ -17,4 +17,4 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 `ds64-shell`
 
 Donations: Svkzohotw2D5xk8r8JJ7ePX1K2NgPrJBJ61eVE17jVogKD5dksagwnE1akdLkR6P3NEU9TdqqN3bEXB4ryubGukS2gB2sr5v7
-Best pool for minning: [PoolDeMineria.com](https://scala.pooldemineria.com)
+Best pool for minning: [PoolDeMineria.com](http://scala.pooldemineria.com)
