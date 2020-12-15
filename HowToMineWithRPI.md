@@ -20,39 +20,36 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 `sudo shutdown -r now`
 
 
-3. Now, install the ds64-shell. You can run 64 bit programs with it.
-
-`sudo apt-get install -y raspbian-nspawn-64`
-
-
-4. Start it with:
-
-`ds64-shell`
-
-(You can close it with `exit` )
-
-
-5. Download the last version of the Linux XLARig.
+3. Download the last version of the Linux XLARig.
 
 `wget https://github.com/scala-network/XLArig/releases/download/v5.1.0/XLArig-v5.1.0-linux-x86_64.zip`
 
 
-6. Unzip it.
+4. Unzip it.
 
 `unzip XLArig-v5.1.0-linux-x86_64.zip`
 
 (Maybe, you don't have installed unzip, install it with `sudo apt-get install unzip`)
 
 
-7. Enter in the folder.
-
-`cd XLArig-v5.1.0-linux-x86_64`
-
-8. Give run permissions to the miner.
+5. Give run permissions to the miner.
 
 `chmod +x xlarig`
 
-9. Start minning with...
+
+6. Now, install the ds64-shell. You can run 64 bit programs with it.
+
+`sudo apt-get install -y raspbian-nspawn-64`
+
+
+7. Start it with:
+
+`ds64-shell`
+
+(You can close it with `exit` )
+
+
+8. Start minning with...
 
 `./xlarig --donate-level 0 -o scala.pooldemineria.com:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k`
 
