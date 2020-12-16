@@ -34,7 +34,7 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 
 `wget https://github.com/scala-network/XLArig/releases/download/v5.1.0/XLArig-v5.1.0-linux-x86_64.zip`
 
-(Maybe, you don't have installed unzip, install it with `sudo apt-get install wget`)
+(Maybe, you don't have installed wget, install it with `sudo apt-get install wget`)
 
 
 6. Unzip it.
