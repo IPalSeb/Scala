@@ -6,6 +6,7 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 | MODEL | SO | Hashrate(H/s) |
 | ----- | ---- | ---- |
 | 3B+ | Raspbian | 100 |
+| 4 | Raspbian Lite | 200 |
 
 
 1. Firts of all, update your RPI.
@@ -29,27 +30,25 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 
 `ds64-shell`
 
+5. Install the needed dependencies.
 
-5. Download the last version of the Linux XLARig.
+`sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev`
 
-`wget https://github.com/scala-network/XLArig/releases/download/v5.1.0/XLArig-v5.1.0-linux-x86_64.zip`
+6. Download the latest XLArig and compile it.
 
-(Maybe, you don't have installed wget, install it with `sudo apt-get install wget`)
+`git clone https://github.com/scala-network/XLArig.git`
 
+`cd xlarig`
 
-6. Unzip it.
+`mkdir build`
 
-`unzip XLArig-v5.1.0-linux-x86_64.zip`
+`cd build`
 
-(Maybe, you don't have installed unzip, install it with `sudo apt-get install unzip`)
+`cmake ..`
 
+`make`
 
-7. Give run permissions to the miner.
-
-`chmod u+x xlarig`
-
-
-8. Start minning with...
+7. Start minning with...
 
 `./xlarig --donate-level 0 -o scala.pooldemineria.com:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k`
 
