@@ -1,2 +1,2 @@
 # Scala
-Tools for Scala (@scala-network) cryptocurrency.
+Tools for Scala ([@scala-network](https://github.com/scala-network)) cryptocurrency.
