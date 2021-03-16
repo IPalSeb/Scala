@@ -30,9 +30,11 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 
 `ds64-shell`
 
+
 5. Install the needed dependencies.
 
 `sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev`
+
 
 6. Download the latest XLArig and compile it.
 
@@ -48,11 +50,18 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 
 `make`
 
-7. Start minning with...
+
+7. Give the miner execution rights.
+
+`chmod u+x xlarig`
+
+
+8. Start minning with...
 
 `./xlarig --donate-level 0 -o scala.pooldemineria.com:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k`
 
 
 **Donations:** Svkzohotw2D5xk8r8JJ7ePX1K2NgPrJBJ61eVE17jVogKD5dksagwnE1akdLkR6P3NEU9TdqqN3bEXB4ryubGukS2gB2sr5v7
+
 
 **Best pool for minning:** [PoolDeMineria.com](http://scala.pooldemineria.com)
