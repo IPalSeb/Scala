@@ -44,6 +44,7 @@
 
 
 5. Give the miner execution rights.
+
 `chmod u+x xlarig`
 
 
