@@ -43,7 +43,11 @@
 `make`
 
 
-5. Start minning with...
+5. Give the miner execution rights.
+`chmod u+x xlarig`
+
+
+6. Start minning with...
 
 `./xlarig --donate-level 0 -o scala.pooldemineria.com:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k`
 
