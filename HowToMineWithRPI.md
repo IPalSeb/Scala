@@ -3,10 +3,11 @@
 I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other RPI model or other SO, send me a message and I can update the table.
 
 
-| MODEL | SO | Hashrate(H/s) |
-| ----- | ---- | ---- |
-| 3B+ | Raspbian | 100 |
-| 4 | Raspbian Lite | 200 |
+| MODEL | SO | Hashrate(H/s) | Comments |
+| ----- | ---- | ---- | ---- |
+| 3B+ | Raspbian | 100 | |
+| 3B+ | Raspbian OS 64 bits | 100 | with that SO you can skip steps 3 and 4|
+| 4 | Raspbian Lite | 200 | |
 
 
 1. Firts of all, update your RPI.
