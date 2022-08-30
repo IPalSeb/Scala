@@ -5,6 +5,7 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 
 | MODEL | SO | Hashrate(H/s) | Comments |
 | ----- | ---- | ---- | ---- |
+| 3B | Raspbian OS 64 bits | 60 | with that SO you can skip steps 3 and 4|
 | 3B+ | Raspbian | 100 | |
 | 3B+ | Raspbian OS 64 bits | 100 | with that SO you can skip steps 3 and 4|
 | 4 | Raspbian Lite | 200 | |
